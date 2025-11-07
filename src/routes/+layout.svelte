@@ -12,6 +12,7 @@
     import "mdui/components/top-app-bar-title.js";
     import "mdui/components/top-app-bar.js";
     import "mdui/mdui.css";
+    import "virtual:uno.css";
 
     const { children } = $props();
 </script>
@@ -44,7 +45,7 @@
         <mdui-button-icon icon="dark_mode" slot="bottom"></mdui-button-icon>
     </mdui-navigation-rail>
 
-    <mdui-layout-main>
+    <mdui-layout-main class="ml-3">
         {@render children()}
     </mdui-layout-main>
 </mdui-layout>

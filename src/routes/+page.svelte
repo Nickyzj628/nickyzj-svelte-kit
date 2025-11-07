@@ -2,5 +2,5 @@
     let count = $state(1);
 </script>
 
-<h1>Hello, sveltekit{"!".repeat(count)}</h1>
-<button onclick={() => count++}>+1</button>
+<h1>HELLO, SVELTE KIT{"!".repeat(count)}</h1>
+<mdui-button onclick={() => count++}>+1</mdui-button>

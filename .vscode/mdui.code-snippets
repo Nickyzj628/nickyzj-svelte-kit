@@ -1,0 +1,8 @@
+{
+    "Import mdui component": {
+        "prefix": "mdui",
+        "body": [
+            "import \"mdui/components/${1:${TM_SELECTED_TEXT}}.js\";"
+        ]
+    }
+}
